@@ -1,16 +1,154 @@
 /* Type your code here */
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 20px;
+}
+.grid{
+	background:white;
+	padding-right: 20px;
+	padding-bottom: 35px;
+	border: 1px thin gray;
+}
+.grid r1{
+	border: 1px thin gray;
+}
+.header{
+    display:flex;
+    flex-direction: row-reverse;
+    align-content: flex-end;
+	font-size: 18px;
+	font-style: normal;
+	width: 1200px;
+	margin: 10px;
+}
+#ab{
+	justify-content: space-between;
+	width: 1200px;
+	margin: 40px;
+}
+#ab h1{
+	font-size: 60px;
+	text-shadow:10px solid gray;
+	text-decoration: gray;
+	
+}
+#ab p{
+	font-size: 25px;
+	margin: 10px;
+}
+.grid{
+	display: grid;
+	grid-template-rows: auto ;
+	margin: 40px;
+	width: 850px;
+}
+.r1{
+	display: grid;
+	grid-template-columns:4fr 1fr;
+	justify-content: stretch;
+	background:red;
+	width: 850px;
+	padding: 0 10px;
+}	
+.r2{ display: grid;
+	grid-template-columns:0.9fr 0.6fr 1fr;
+	justify-content: space-between;
+	height: 20px;
+	width: 850px;
+	border: 10px solid white;
+	background: white;
+}
+.r22{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	justify-content: space-between;
+	margin: 10px;
+}
+.r3{ display: grid;
+	grid-template-columns: 3fr 3fr 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr;
+	justify-content: space-between;
+	width: 850px;
+	padding: 0 10px;
+	background: white;
+	border: 1px thin gray;
+}
+.c1{ display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+	background: white;
+	border: 5px thin gray;
 
+}
+.c2{ display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+	margin: 10px;
+	background: white;
+}
+.c3{ display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+	margin: 10px;
+	background: white;
+}
+.c4{ display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+	margin: 10px;
+	background: white;
+}
+.c5{ display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+	margin: 10px;
+	background: white;
+}
+.c6{ display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+	margin: 10px;
+	background: white;
+}
+.c7{ display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+	margin: 10px;
+	background: white;
+}
+.r4{ display: grid;
+	grid-template-columns:0.9fr .6fr 1fr;
+	justify-content: space-between;
+	height: 20px;
+	width: 850px;
+	margin: 10px;
+	background: white;
+}
+.r5{ display: grid;
+	grid-template-columns:0.9fr .6fr 1fr;
+	justify-content: space-between;
+	height: 20px;
+	width: 850px;
+	background: white;
+	margin: 0px 10px;
+}
+.r6{ display: grid;
+	grid-template-columns:0.9fr .6fr 1fr;
+	justify-content: space-between;
+	height: 20px;
+	width: 850px;
+	background: white;
+	margin: 0px 10px;
+}
 
 /* change the font family and spacing as per your project font */
 .footer{
     display:flex;
     flex-direction: row;
     align-content: flex-end;
-	position: relative;
-	top: 750px;
 	margin-left: 80px;
 	font-size: 18px;
 	font-family: Nunito Sans;
     font-style: normal;
     
+}
+#photo img {
+		position: absolute;
+		left: 500px;
+		top: 150px;
+		z-index: -1;
 }
